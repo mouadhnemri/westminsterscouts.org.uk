@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>City of Westminster Scout District</title>
+    <meta name="google-site-verification" content="4hAhC7cUYxA9KfnPn10lHIowp8Sq4EJZz_Nm7s4MMVQ" />
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap-responsive.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+  </head>
+  <body>
+  
+    <div class="navbar navbar-fixed-top">
+      <div class="container">
+        <div class="header row">
+          <a class="span2" href="#/">
+            <img src="img/logo.jpg" />
+          </a>
+          </div>
+          <div class="span10">
+            <h1 class="purple heading">City of Westminster</h1>
+            <h1 class="green heading">Scout District</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container">
+      <div class="row">
+        <ul class="span2 nav nav-pills nav-stacked">
+          <li><a href="#/beavers">Beavers</a></li>
+          <li><a href="#/cubs">Cubs</a></li>
+          <li><a href="#/scouts">Scouts</a></li>
+          <li><a href="#/explorers">Explorers</a></li>
+          <li><a href="#/campsite">Campsite</a></li>
+        </ul>
+        <div class="span10 offset2">
+          <h2 class="purple subheading">What is Scouting?</h2>
+          <p>
+            Scouting offers fun, challenge and everyday 
+            adventure to 400,000 girls and boys across the 
+            UK. Offering over 200 different activities from 
+            abseiling and archery to drama, street sports and 
+            water zorbing, Scouting helps 6-25 year olds 
+            grow in confidence, achieve their full potential 
+            and become active members of their communities. 
+          </p>
+          <h2 class="purple subheading">Join</h2>
+          <p>
+            There are many ways you can kick-start your adventure,
+            as a <a href="#">young person</a>, <a href="#">parent</a> or <a href="#">adult volunteer</a>.
+            Our volunteers get involved on their terms and not all roles involve working with young people.
+            If you can give a little time (or a lot) to help improve young lives in your community,
+            <a href="#">we’d love to hear from you</a>.
+          </p>
+          <h2 id="/beavers" class="purple heading">Beavers</h2>
+          <p>
+            Beaver Scouts are young people usually aged between six and eight years old.
+            They belong to the first and youngest Section in the Scouting family.
+            Young people can join Beaver Scouts in the three months leading up to their sixth birthday.
+            They can move to the next Section, Cub Scouts,
+            between seven years and six months and eight years six months.
+          </p>
+          <h2 id="/cubs" class="purple heading">Cubs</h2>
+          <p>
+            Scouting offers fun, challenge and everyday 
+            adventure to 400,000 girls and boys across the 
+            UK. Offering over 200 different activities from 
+            abseiling and archery to drama, street sports and 
+            water zorbing, Scouting helps 6-25 year olds 
+            grow in confidence, achieve their full potential 
+            and become active members of their communities. 
+          </p>
+          <h2 id="/scouts" class="purple heading">Scouts</h2>
+          <p>
+            There are many ways you can kick-start your adventure,
+            as a <a href="#">young person</a>, <a href="#">parent</a> or <a href="#">adult volunteer</a>.
+            Our volunteers get involved on their terms and not all roles involve working with young people.
+            If you can give a little time (or a lot) to help improve young lives in your community,
+            <a href="#">we’d love to hear from you</a>.
+          </p>
+          <h2 id="/explorers" class="purple heading">Explorers</h2>
+          <p>
+            There are many ways you can kick-start your adventure,
+            as a <a href="#">young person</a>, <a href="#">parent</a> or <a href="#">adult volunteer</a>.
+            Our volunteers get involved on their terms and not all roles involve working with young people.
+            If you can give a little time (or a lot) to help improve young lives in your community,
+            <a href="#">we’d love to hear from you</a>.
+          </p>
+          <h2 id="/campsite" class="purple heading">Campsite</h2>
+          <p>
+            There are many ways you can kick-start your adventure,
+            as a <a href="#">young person</a>, <a href="#">parent</a> or <a href="#">adult volunteer</a>.
+            Our volunteers get involved on their terms and not all roles involve working with young people.
+            If you can give a little time (or a lot) to help improve young lives in your community,
+            <a href="#">we’d love to hear from you</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
