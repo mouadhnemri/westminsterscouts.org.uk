@@ -11,9 +11,63 @@
 
 /* General */
 
+html, body {
+  font-size: 18px;
+  height: 100%;
+}
+
 body {
-  color: #415A68;
-  line-height: 1.1rem;
+  color: #4D2177;
+  line-height: 1.2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-attachment: fixed;
+  background-image: linear-gradient(
+    top,
+    #fff 0%,
+    #eee 100%
+  );
+  background-image: -o-linear-gradient(
+    top,
+    #fff 0%,
+    #eee 100%
+  );
+  background-image: -moz-linear-gradient(
+    top,
+    #fff 0%,
+    #eee 100%
+  );
+  background-image: -webkit-linear-gradient(
+    top,
+    #fff 0%,
+    #eee 100%
+  );
+  background-image: -ms-linear-gradient(
+    top,
+    #fff 0%,
+    #eee 100%
+  );
+}
+
+.purple {
+  color: #4D2177;
+}
+
+.green {
+  color: #86A20B;
+}
+
+/* Headings */
+
+.heading {
+  text-transform: uppercase;
+  font-weight: normal;
+  font-family: heading, sans-serif;
+}
+
+h1 {
+  font-size: 3.375rem;
+  line-height: 2.7rem;
 }
 
 p {
@@ -22,50 +76,6 @@ p {
 
 a {
   color: #006990;
-}
-
-.navbar {  
-  background-image: linear-gradient(
-    top,
-    white 0%,
-    white 87%,
-    rgba(255,255,255,0) 100%
-  );
-  background-image: -o-linear-gradient(
-    top,
-    white 0%,
-    white 87%,
-    rgba(255,255,255,0) 100%
-  );
-  background-image: -moz-linear-gradient(
-    top,
-    white 0%,
-    white 87%,
-    rgba(255,255,255,0) 100%
-  );
-  background-image: -webkit-linear-gradient(
-    top,
-    white 0%,
-    white 87%,
-    rgba(255,255,255,0) 100%
-  );
-  background-image: -ms-linear-gradient(
-    top,
-    white 0%,
-    white 87%,
-    rgba(255,255,255,0) 100%
-  );
-}
- 
-.navbar [class*="span"] {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-
-.hash { 
-  height: 1px;
-  width: 1px;
-  display: block; 
 }
 
 .purple {
@@ -83,13 +93,8 @@ a {
 /* Headings */
 
 .heading {
+  padding-top: 0.5rem;
   text-transform: uppercase;
-  font-weight: normal;
-  font-family: heading, sans-serif;
-}
-
-.subheading {
-  margin-bottom: 0.5rem;
   font-weight: normal;
   font-family: heading, sans-serif;
 }
@@ -102,6 +107,12 @@ h1 {
 h2 {
   font-size: 2.25rem;
   line-height: 2rem;
+}
+
+/* Header */
+
+.header {
+  margin-bottom: 2rem;
 }
 
 /* Nav Section */
@@ -118,63 +129,24 @@ h2 {
 /* Main Section */
 
 .main .heading {
-  margin: 5.0625rem 0 1.5rem;
+  margin: 5rem 0 1rem;
 }
 
-/* Responsive */
-
-
-/* fixed mode small header */
-@media (min-width: 1200px) and (min-height: 400px) {
-  body {
-    padding-top: 8.5rem;
-  }
-  
-  .hash {
-    margin-top: -8.5rem;
-    padding-bottom: 8.5rem;
-  }
+.fix {
+  position: fixed;
 }
 
-
-/* fixed mode big header */
-@media (min-width: 768px) and (max-width: 1200px) and (min-height: 500px) {
-  body {
-    padding-top: 11.5rem;
-  }
-  
-  .hash {
-    margin-top: -11.5rem;
-    padding-bottom: 11.5rem;
-  }
+.mock {
+  height: 113px;
 }
 
-/* fixed mode */
-@media (min-width: 768px) and (min-height: 500px), (min-width: 1200px) and (min-height: 400px) {  
-  .nav {
-    position: fixed;
-  }
-}
-
-/* static mode and single column mode */
-@media (max-width: 767px), (max-height: 499px) and (max-width: 1199px), (max-height: 399px) {
-  .nav-mock {
+/* Single Column */
+@media (max-width: 767px), (max-height: 499px) {
+  .mock {
     display: none;
   }
   
-  .navbar-fixed-top {
+  .fix {
     position: static;
-  }
-}
-
-@media (min-width: 979px) { 
-  html, body {
-    font-size: 20px;
-  }
-}
-
-@media (max-width: 979px) {  
-  html, body {
-    font-size: 15px;
   }
 }
