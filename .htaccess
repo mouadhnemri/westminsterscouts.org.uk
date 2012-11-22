@@ -1,0 +1,8 @@
+RewriteEngine On
+
+RewriteRule ^beavers$ beavers.html [NC]
+RewriteRule ^cubs$ cubs.html [NC]
+RewriteRule ^scouts$ scouts.html [NC]
+RewriteRule ^explorers$ explorers.html [NC]
+RewriteRule ^campsite$ campsite.html [NC]
+

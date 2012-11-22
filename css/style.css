@@ -13,14 +13,12 @@
 
 html, body {
   font-size: 18px;
-  height: 100%;
+  line-height: 24px;
 }
 
 body {
+  margin: 20px auto;
   color: #4D2177;
-  line-height: 24px;
-  padding-top: 10px;
-  padding-bottom: 10px;
   background-attachment: fixed;
   background-image: linear-gradient(
     top,
@@ -49,10 +47,6 @@ body {
   );
 }
 
-p {
-  margin-bottom: 30px;
-}
-
 a {
   color: #006990;
 }
@@ -69,10 +63,13 @@ a {
   color: #006990;
 }
 
+.center {
+  text-align: center;
+}
+
 /* Headings */
 
 .heading {
-  padding-top: 10px;
   text-transform: uppercase;
   font-weight: normal;
   font-family: heading, sans-serif;
@@ -91,14 +88,14 @@ h2 {
 /* Header */
 
 .header {
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 
 /* Nav Section */
 
 .nav {
-  font-size: 30px;
-  line-height: 28px;
+  font-size: 26px;
+  line-height: 24px;
 }
 
 .nav li {
@@ -107,25 +104,6 @@ h2 {
 
 /* Main Section */
 
-.main .heading {
-  margin: 100px 0 20px;
-}
-
-.fix {
-  position: fixed;
-}
-
-.mock {
-  height: 113px;
-}
-
-/* Single Column */
-@media (max-width: 767px), (max-height: 499px) {
-  .mock {
-    display: none;
-  }
-  
-  .fix {
-    position: static;
-  }
+.main .heading, .main p {
+  margin: 0 0 30px;
 }
