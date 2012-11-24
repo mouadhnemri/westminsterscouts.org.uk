@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://westminsterscouts.org.uk/</loc>
+  <lastmod>2012-11-22T23:37:28+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://westminsterscouts.org.uk/beavers</loc>
+  <lastmod>2012-11-22T23:37:28+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://westminsterscouts.org.uk/cubs</loc>
+  <lastmod>2012-11-22T23:37:28+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://westminsterscouts.org.uk/scouts</loc>
+  <lastmod>2012-11-22T23:37:28+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://westminsterscouts.org.uk/explorers</loc>
+  <lastmod>2012-11-22T23:37:28+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://westminsterscouts.org.uk/campsite</loc>
+  <lastmod>2012-11-22T23:37:28+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://westminsterscouts.org.uk/Coombe%20Farm%20Brochure.pdf</loc>
+  <lastmod>2012-11-22T23:37:28+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://westminsterscouts.org.uk/Coombe%20Farm%20Booking%20Form.pdf</loc>
+  <lastmod>2012-11-22T23:37:28+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+</urlset>
