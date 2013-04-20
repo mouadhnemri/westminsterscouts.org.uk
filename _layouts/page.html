@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>City of Westminster Scout District</title>
+    <title>
+        {% if page.title %} 
+            {{ page.title }} -
+        {% endif %}
+        City of Westminster Scout District
+    </title>
     <meta name="google-site-verification" content="4hAhC7cUYxA9KfnPn10lHIowp8Sq4EJZz_Nm7s4MMVQ" />
     <link rel="stylesheet" href="css/bootstrap.css"/>
     <link rel="stylesheet" href="css/bootstrap-responsive.css"/>
