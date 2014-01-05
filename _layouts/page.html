@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
     <title>
-        {% if page.title %} 
-            {{ page.title }} -
-        {% endif %}
-        City of Westminster Scout District
+      {% if page.title %}{{ page.title }} - {% endif %}City of Westminster Scout District
     </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="google-site-verification" content="4hAhC7cUYxA9KfnPn10lHIowp8Sq4EJZz_Nm7s4MMVQ" />
     <link rel="stylesheet" href="css/bootstrap.css"/>
     <link rel="stylesheet" href="css/bootstrap-responsive.css"/>
@@ -44,7 +43,7 @@
           <li><a class="heading" href="campsite">Campsite</a></li>
         </ul>
         <div class="main span9">
-    		{{ content }}
+{{ content }}
         </div>
       </div>
     </div>

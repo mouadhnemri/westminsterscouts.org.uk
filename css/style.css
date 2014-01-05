@@ -107,3 +107,16 @@ h2 {
 .main .heading, .main p {
   margin: 0 0 30px;
 }
+
+@media (max-width: 767px) {
+  body {
+    margin: 0.2em;
+  }
+  h1 {
+    display: none;
+  }
+  .nav li {
+    font-size: 14pt;
+    margin-bottom: 0.4em;
+  }
+}
