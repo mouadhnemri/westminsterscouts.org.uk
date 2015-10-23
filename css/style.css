@@ -9,15 +9,11 @@
   font-style: normal;
 }
 
-/* General */
-
 html, body {
   font-size: 18px;
-  line-height: 24px;
 }
 
 body {
-  margin: 20px auto;
   color: #4D2177;
   background-attachment: fixed;
   background-image: linear-gradient(
@@ -63,15 +59,8 @@ a {
   color: #006990;
 }
 
-.center {
-  text-align: center;
-}
-
-/* Headings */
-
 .heading {
   text-transform: uppercase;
-  font-weight: normal;
   font-family: heading, sans-serif;
 }
 
@@ -82,41 +71,21 @@ h1 {
 
 h2 {
   font-size: 45px;
-  line-height: 40px;
 }
 
-/* Header */
-
-.header {
-  margin-bottom: 60px;
+#header {
+  margin-bottom: 40px;
 }
 
-/* Nav Section */
+#logo {
+  margin-top: 20px;
+}
 
-.nav {
+#navigation {
+  margin-bottom: 20px;
   font-size: 26px;
-  line-height: 24px;
 }
 
-.nav li {
-  margin-bottom: 13px;
-}
-
-/* Main Section */
-
-.main .heading, .main p {
-  margin: 0 0 30px;
-}
-
-@media (max-width: 767px) {
-  body {
-    margin: 0.2em;
-  }
-  h1 {
-    display: none;
-  }
-  .nav li {
-    font-size: 14pt;
-    margin-bottom: 0.4em;
-  }
+#main .heading, #main p {
+  margin: 0 0 20px;
 }
