@@ -3,7 +3,7 @@ html, body {
 }
 
 body {
-  color: #4D2177;
+  color: #003982;
   background-attachment: fixed;
   background-image: linear-gradient(
     top,
@@ -33,19 +33,19 @@ body {
 }
 
 a {
-  color: #006990;
+  color: #003982;
 }
 
 .purple {
-  color: #4D2177;
+  color: #7413dc;
 }
 
 .green {
-  color: #86A20B;
+  color: #00a794
 }
 
 .blue {
-  color: #006990;
+  color: #003982;
 }
 
 .heading {
